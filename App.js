@@ -1,12 +1,5 @@
 import React, {useState} from 'react';
-import {
-  SafeAreaView,
-  View,
-  StyleSheet,
-  FlatList,
-  Text,
-  Alert,
-} from 'react-native';
+import {SafeAreaView, View, StyleSheet, FlatList, Text} from 'react-native';
 import TodoInput from './src/Components/TodoInput/TodoInput';
 import Todo from './src/Components/Todo/Todo';
 

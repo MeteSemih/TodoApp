@@ -2,7 +2,6 @@ import React from 'react';
 import {Alert, Text, TouchableOpacity, View} from 'react-native';
 import styles from './Todo.style';
 
-// onDelete prop'unu burada eklemeyi unutmayın
 const Todo = ({text, onDelete}) => {
   const handleDelete = () => {
     Alert.alert(
@@ -12,7 +11,7 @@ const Todo = ({text, onDelete}) => {
         {text: 'İptal', style: 'cancel'},
         {
           text: 'Evet',
-          onPress: () => onDelete(), // Bu, silme işlemini tetikler
+          onPress: () => onDelete(),
         },
       ],
       {cancelable: false},
